@@ -1,0 +1,25 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "description": "instagram with react react-native",
+  "main": "index.js",
+  "repository": "https://github.com/rat8397/instagram.git",
+  "author": "rat8397 <wnsgur8397@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^6.0.15",
+    "graphql-yoga": "^1.18.3",
+    "merge-graphql-schemas": "^1.7.8",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "devDependencies": {}
+}
